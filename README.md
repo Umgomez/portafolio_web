@@ -1,2 +1,2 @@
-# portafolio_web
-Mi portafolio digital
+# Portafolio
+Mi portafolio web digital
