@@ -1,31 +1,33 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+"use client";
+import { BookText, CodeSquare, HomeIcon, UserRound, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import { ImLinkedin2 } from "react-icons/im";
 
 export const socialNetworks = [
     {
         id: 1,
-        logo: <Youtube size={30} strokeWidth={1} />,
-        src: "#!",
+        logo: <ImLinkedin2 size={30} strokeWidth={1} />,
+        src: "www.linkedin.com/in/ubaldin-gomez",
     },
-    {
-        id: 2,
-        logo: <Linkedin size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
-        id: 3,
-        logo: <Twitter size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
-        id: 4,
-        logo: <Rss size={30} strokeWidth={1} />,
-        src: "#!",
-    },
-    {
-        id: 5,
-        logo: <Twitch size={30} strokeWidth={1} />,
-        src: "#!",
-    },
+    // {
+    //     id: 2,
+    //     logo: <Youtube size={30} strokeWidth={1} />,
+    //     src: "#!",
+    // },
+    // {
+    //     id: 3,
+    //     logo: <Twitter size={30} strokeWidth={1} />,
+    //     src: "#!",
+    // },
+    // {
+    //     id: 4,
+    //     logo: <Rss size={30} strokeWidth={1} />,
+    //     src: "#!",
+    // },
+    // {
+    //     id: 5,
+    //     logo: <Twitch size={30} strokeWidth={1} />,
+    //     src: "#!",
+    // },
 ];
 
 
@@ -38,25 +40,25 @@ export const itemsNavbar = [
     },
     {
         id: 2,
-        title: "User",
+        title: "Sobre mí",
         icon: <UserRound size={25} color="#fff" strokeWidth={1} />,
         link: "/pages/about-me",
     },
     {
         id: 3,
-        title: "Book",
+        title: "Servicios",
         icon: <BookText size={25} color="#fff" strokeWidth={1} />,
         link: "/pages/services",
     },
     {
         id: 4,
-        title: "Target",
+        title: "Portafolio",
         icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
         link: "/pages/portfolio",
     },
     {
         id: 5,
-        title: "Home",
+        title: "Testimonios",
         icon: <Speech size={25} color="#fff" strokeWidth={1} />,
         link: "/pages/testimonials",
     },
@@ -235,7 +237,7 @@ export const dataTestimonials = [
     },
     {
         id: 4,
-        name: "Laura Snow",
+        name: "Laura Rodríguez",
         description:
             "¡Qué descubrimiento tan fantástico! Los testimonios aquí son honestos y detallados. Me siento más seguro al tomar decisiones después de leer las experiencias compartidas por otros usuarios.",
         imageUrl: "/profile4.png",

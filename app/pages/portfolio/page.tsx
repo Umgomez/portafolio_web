@@ -1,3 +1,4 @@
+"use client";
 import { dataPortfolio } from "@/data";
 
 import AvatarPortfolio from "../../components/avatar-portfolio";
